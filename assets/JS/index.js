@@ -1,4 +1,4 @@
-const key = "70bc19c52b7ede019b17c97b397ac83d";
+const key = "";
 
 
 function display(dados){
