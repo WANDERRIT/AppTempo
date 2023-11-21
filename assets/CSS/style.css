@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+body{
+    width: 100vw; /* significa viweport width o tamanho da visibilidade da tela */
+    height: 100vh;  /* significa viweport width o tamanho da visibilidade da tela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/assets/img/AnyConv.com__bg-tempo.jpg");
+    background-repeat: no-repeat;
+}
+
+.clima-1{
+    background-color: rgb(75, 36, 87);
+    opacity: 0.6;
+    padding: 20px;
+    border-radius: 10px;
+    width: 95%;
+    max-width: 500px;
+}
+
+.clima-1 button img {
+min-height: 25px;
+min-width: 25px;
+}
+
+.input-cidade{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 15px;
+    background-color: #7b3881;
+    color: #fff;
+    width:80%
+}
+
+.buscar{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 70px;
+    background-color: #7b3881;
+    cursor: pointer;
+    float: right;
+    width: 17%;
+    height: 41px;
+}
+
+.buscar img{
+    width: 2vw;
+    height: 3.5vh;
+}
+
+.clima-1 h2{
+color: #fff;
+font-size: 25px;
+margin-top: 38px;
+}
+
+.clima-2 p{
+    color: #fff;
+    padding: 5px;
+}
+
+.texto-temperatura{
+color: #fff;
+font-size: 25px;
+margin-top: 15px;
+}
+
+.clima-3{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.clima-3 p{
+    margin-top: 25px;
+    margin-left: 12px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.clima-3 img{
+    width: 50px ;
+    height: 50px ;
+}
+
+.umidade{
+    color: #fff;
+    margin-top: 15px;
+}
